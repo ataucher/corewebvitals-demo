@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+header {
+    background: #65cea5;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+h2 {
+    color: #666;
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+}
+
+nav {
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav ul li a:hover {
+    color: #207152;
+}
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.hero-content {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #FFF;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero-content h2 {
+    color: #FFF;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero-content .btn {
+    font-size: 1.5rem;
+    background: #65cea5;
+    color: #FFF;
+    margin: 2rem 0 0 0 ;
+    padding: .5rem 2rem;
+    font-weight: 700;
+}
+
+.hero-content .btn:hover {
+    background: #207152;
+    color: #FFF;
+}
+
+/*
+    background-color: purple;
+    background-blend-mode: multiply;
+    */
+
+.bucket p {
+    color: #666;
+}
+
+.bucket h2, .bucket p {
+    padding: 0 1rem;
+}
+
+.gallery {
+    width: 100%;
+    background-color: #8020c4;
+    text-align: center;
+    padding: 2rem;
+    color: #FFF;
+    margin: 5rem 0;
+}
+
+.dom {
+    border: 1px solid #666;
+    padding: 3rem;
+    width: 800px;
+    margin: 100px auto;
+    text-align: justify;
+}
+
+.dom h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #65cea5;
+    text-align: center;
+    color: #207152;
+    padding: 5rem 0;
+}
